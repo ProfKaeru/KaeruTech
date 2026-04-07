@@ -436,3 +436,42 @@ h3 {
   margin-bottom: 0;
   list-style: none;
 }
+
+/* フッター */
+footer {
+  background-color: #2710d5;
+  text-align: center;
+  padding: 80px 80px 30px 80px;
+}
+
+#footer-logo {
+  margin-bottom: 30px;
+}
+
+#footer-link {
+  margin-bottom: 50px;
+}
+
+#footer-link > a {
+  text-decoration: none;
+  margin: 10px;
+  color: #ffffff;
+}
+
+#footer-link > a:hover {
+  text-decoration: underline;
+}
+
+#sns-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+#sns-footer a {
+  margin-right: 30px;
+}
+
+#copyright {
+  color: #ffffff;
+  margin: 0;
+}
